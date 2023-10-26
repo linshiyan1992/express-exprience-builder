@@ -18,7 +18,7 @@ app.get("/", async (req, res) => {
 });
 
 app.get("/jimu-core/init.js", async (req, res) => {
-  res.sendFile(path.join(__dirname, "jimu-core", "init.js"));
+  res.sendFile(path.join(__dirname, "jimu-core", "/init.js"));
 });
 
 // 小程序调用，获取微信 Open ID
